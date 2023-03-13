@@ -11,7 +11,7 @@ function main() {
 const peso = Number(question('Peso(kg):'))
 const ativ_fisica_tipo = question('Atividade fisica praticada(moderada ou intensa):')
 
-//Moderada
+//Processamento
 const qtd_agua_ativ_moderada = calcula_qtd_agua_ativ_moderada(peso)
 const qtd_agua_ativ_intensa = calcula_qtd_agua_ativ_intensa(peso)
 
